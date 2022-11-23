@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .grid-place {
+    @apply grid mt-14 gap-5 md:grid-cols-2 lg:grid-cols-4 md:gap-7 lg:mt-20;
+  }
+
+  .grid-row {
+    @apply grid gap-5 md:grid-cols-3 lg:grid-cols-3 md:gap-7;
+  }
+}
